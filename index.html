@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>NFT Card List</title>
+    <title>NFT Gallery</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
@@ -13,11 +13,41 @@
 
 <body>
 
-    <main class="card-list">
+    <header class="site-header animate__animated animate__fadeInDown">
+
+        <div class="header-container">
+
+            <a href="#" class="logo-link">
+                <img 
+                    src="assets/images/logo.png" 
+                    alt="NFT Gallery Logo" 
+                    class="logo"
+                >
+
+                <span class="brand-name">NFT Gallery</span>
+            </a>
+
+            <nav class="navigation">
+
+                <a href="#collection">Collection</a>
+
+                <a href="#about">About</a>
+
+                <a href="#creator">Creator</a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main id="collection" class="card-list">
 
         <div class="card animate__animated animate__fadeInUp">
 
             <div class="image-container">
+
                 <img 
                     class="nft-image" 
                     src="assets/images/nft-1.jpg" 
@@ -25,11 +55,14 @@
                 >
 
                 <div class="overlay">
+
                     <img 
                         src="assets/images/icon-view.svg" 
                         alt="View NFT"
                     >
+
                 </div>
+
             </div>
 
             <h1>Crystal Cube #001</h1>
@@ -41,26 +74,32 @@
             <div class="info">
 
                 <p class="price">
+
                     <img 
                         src="assets/images/icon-ethereum.svg" 
                         alt="Ethereum"
                     >
+
                     0.041 ETH
+
                 </p>
 
                 <p class="time">
+
                     <img 
                         src="assets/images/icon-clock.svg" 
                         alt="Time"
                     >
+
                     3 days left
+
                 </p>
 
             </div>
 
             <hr>
 
-            <div class="creator">
+            <div class="creator" id="creator">
 
                 <img 
                     src="assets/images/image-avatar.png" 
@@ -79,6 +118,7 @@
         <div class="card animate__animated animate__fadeInUp">
 
             <div class="image-container">
+
                 <img 
                     class="nft-image" 
                     src="assets/images/nft-2.jpg" 
@@ -86,11 +126,14 @@
                 >
 
                 <div class="overlay">
+
                     <img 
                         src="assets/images/icon-view.svg" 
                         alt="View NFT"
                     >
+
                 </div>
+
             </div>
 
             <h1>Cyber Mask #728</h1>
@@ -102,19 +145,25 @@
             <div class="info">
 
                 <p class="price">
+
                     <img 
                         src="assets/images/icon-ethereum.svg" 
                         alt="Ethereum"
                     >
+
                     0.085 ETH
+
                 </p>
 
                 <p class="time">
+
                     <img 
                         src="assets/images/icon-clock.svg" 
                         alt="Time"
                     >
+
                     5 days left
+
                 </p>
 
             </div>
@@ -140,6 +189,7 @@
         <div class="card animate__animated animate__fadeInUp">
 
             <div class="image-container">
+
                 <img 
                     class="nft-image" 
                     src="assets/images/nft-3.jpg" 
@@ -147,11 +197,14 @@
                 >
 
                 <div class="overlay">
+
                     <img 
                         src="assets/images/icon-view.svg" 
                         alt="View NFT"
                     >
+
                 </div>
+
             </div>
 
             <h1>Cyber Phoenix #314</h1>
@@ -163,19 +216,25 @@
             <div class="info">
 
                 <p class="price">
+
                     <img 
                         src="assets/images/icon-ethereum.svg" 
                         alt="Ethereum"
                     >
+
                     0.120 ETH
+
                 </p>
 
                 <p class="time">
+
                     <img 
                         src="assets/images/icon-clock.svg" 
                         alt="Time"
                     >
+
                     2 days left
+
                 </p>
 
             </div>
@@ -198,6 +257,18 @@
         </div>
 
     </main>
+
+
+    <section id="about" class="about-section animate__animated animate__fadeInUp">
+
+        <h2>About the Collection</h2>
+
+        <p>
+            NFT Gallery is a futuristic digital art collection created to explore
+            the connection between technology, creativity and digital art.
+        </p>
+
+    </section>
 
 </body>
 </html>
